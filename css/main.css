@@ -6,6 +6,67 @@ html {
 	box-sizing: inherit;
 }
 
+body {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  background-color: #f0eee8;
+}
+
 a {
   text-decoration: none;
+}
+
+.link-card {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+}
+
+h2 {
+  color: #;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+dl {
+  font-size: 0.875rem;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid ##9a816d;
+  padding: 1em;
+  overflow: hidden;
+}
+
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  float: left;
+  width: 50;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #785439;
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-wrap {
+  clear: both;
 }
