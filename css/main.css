@@ -14,15 +14,20 @@ body {
 
 a {
   text-decoration: none;
+  color: #512200;
+  line-height: 1.5rem;
 }
 
 .link-card {
   display: inline-block;
   padding: 0;
-  margin: 0;
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 3px;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
 }
 
 h2 {
@@ -31,14 +36,20 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
   padding: 0;
-  margin: 0;
+  margin: 0.5em;
+}
+
+p {
+  margin: 0.7em;
 }
 
 dl {
+  display: inline-block;
   font-size: 0.875rem;
   border-top: 2px solid #9a816d;
-  border-bottom: 2px solid ##9a816d;
-  padding: 1em;
+  border-bottom: 2px solid #9a816d;
+  padding: 1.5em 0;
+  margin: 0.7em;
   overflow: hidden;
 }
 
@@ -59,14 +70,18 @@ dd {
 
 .btn {
   display: inline-block;
+  padding: 0.5em 0;
+  margin: 20px 0px 20px 90px;
   background-color: #785439;
   color: #fff;
   font-family: "Dosis", sans-serif;
   font-size: 1.125rem;
-  padding: 0;
-  margin: 0;
+  font-weight: 700;
+  border-radius: 8px;
 }
 
 .btn-wrap {
   clear: both;
+  text-align: center;
+  margin: 1em;
 }
